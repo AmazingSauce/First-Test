@@ -1,0 +1,18 @@
+ #! /bin/bash
+ 
+ ls /var/www/html/ourAnimals/images > imagesList.txt
+
+for i in $(cat /var/www/html/ourAnimals/images/imagesList.txt)
+do
+    echo '<li class="span3">
+        <a class="thumbnail" rel="lightbox[group]" href="images/'$i'"><img class="group1" src="images/'$i' title="Image Title" /> </a>
+        </li> <!--end thumb -->' >> output.txt;
+done
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 

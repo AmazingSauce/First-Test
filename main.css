@@ -1,0 +1,30 @@
+
+body {
+	
+	background:#999;
+	font-family:arial;
+}
+
+h1, h2 {
+	color:#555;
+}
+
+a{
+	color: green;
+}
+
+li {
+	color: yellow;
+}
+
+p {
+	background: #1;
+	color: white;
+	padding: 8px 8px 5px 5px;
+}
+
+.alternateParagraph {
+	background: red;
+	color: orange;
+	padding: 10px
+}
