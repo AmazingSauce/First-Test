@@ -5,7 +5,20 @@
 	<title>Page 2</title>
 
 	<!-- adding the stylest css page to the webe page, this can be added to each page html code -->
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<!-- <link rel="stylesheet" type="text/css" href="main.css"> -->
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+	<!-- JQuery cdn from google, added for navbar section -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+	
+
 
 
 </head>
@@ -28,7 +41,39 @@
 	<p>Lets Test a paragraph</p>
 
 
+<div class="containter">
+	<div class="row">
+<!-- you can also use panels -->
+		<div class="col-xs-3">
+			<div id="panel1" class="panel panel-primary">
+				<div  class="panel-heading">Panel</div>
+					<div class="panel-body">
+						why wont the panel slide?
+					</div>
+				
+			</div>
+		</div>	
+	</div>
+</div>
+
+
+<!-- java script for panel to do stuff -->
+
+<script>
+
+	$(function() {
+		$("#panel1").hide(100);
+		$("#panel1").css({color: 'red',fontWeight:'bold'});
+		$("#panel1").hide(1000).show(2000); 
+		
+	});
+</script>
+
+
 
 </body>
+
+<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 </html>
