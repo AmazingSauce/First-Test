@@ -50,9 +50,8 @@ body {
   background: #000;
 }
 
-bottom{
+.background {
 	position: absolute;
-  width: 100%;
+	width: 100%;
 	bottom: 0;
-	
 }
